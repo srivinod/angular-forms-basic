@@ -1,2 +1,2 @@
 # Angular-forms
-Experimenting with angular forms, validations and all about angular forms.
+Experimenting with angular forms, this is a basic form which interacts with single input field.
