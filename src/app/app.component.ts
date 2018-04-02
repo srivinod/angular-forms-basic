@@ -6,5 +6,19 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Basic Form - Angular';
+  EmailId : string[];
+  Visibility : string;
+
+  constructor(){
+    this.Visibility="none";
+  }
+
+  onsubmit(FormEMailID): void {
+    console.log('you submitted value:', FormEMailID);  
+    this.EmailId = FormEMailID;
+    this.Visibility = "block";
+
+  }
 }
+
